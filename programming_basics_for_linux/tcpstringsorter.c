@@ -7,6 +7,7 @@
 #include <string.h>
 #include <errno.h>
 
+//create a method to compare values
 int comp(const char *value1, const char *value2)
 {
 	if(*value1 < *value2){
